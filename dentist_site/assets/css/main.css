@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+nav .collapse ul li a:hover, footer .fa:hover {
+  border: solid 1px;
+  border-color: #20b8ad;
+  border-radius: 8px; }
+
+#services img, .comments img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px; }
+
+nav {
+  background-color: #94e6e0; }
+  nav span {
+    color: #5e5e5e;
+    font-weight: 700; }
+  nav img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; }
+  nav .collapse ul {
+    margin-left: 30px; }
+    nav .collapse ul li a {
+      color: #5e5e5e;
+      font-size: 1.2rem; }
+
+header {
+  width: 100%;
+  height: 93vh;
+  background-image: url("../img/imageedit_1_9881299603.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.658);
+  background-blend-mode: overlay; }
+  header .header_text h1 {
+    font-size: 5.4rem;
+    font-weight: bold; }
+  header .header_text h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black; }
+  header .header_text .btn {
+    background-color: #94e6e0;
+    color: black;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); }
+    header .header_text .btn:hover {
+      background-color: #1d8f80;
+      color: #ffffff; }
+
+#about_me {
+  height: 100%;
+  margin-top: 8%; }
+  #about_me .text_about {
+    margin-top: 2%; }
+    #about_me .text_about h1 {
+      margin-bottom: 10%;
+      font-weight: 800; }
+    #about_me .text_about h6 {
+      margin-bottom: 5%;
+      font-weight: 600; }
+
+#services {
+  height: 700px;
+  margin-top: 6%;
+  background-color: rgba(193, 241, 238, 0.247); }
+  #services h2 {
+    margin-top: 8%;
+    margin-bottom: 8%; }
+  #services img {
+    width: 100%;
+    height: 100%; }
+  #services h5 {
+    margin-top: 2.5rem; }
+
+.comments {
+  margin-top: 10%; }
+  .comments h2 {
+    margin-bottom: 6%; }
+  .comments h5, .comments p {
+    margin-top: 5%; }
+
+footer {
+  margin-top: 8%;
+  background-color: #94e6e0;
+  padding-top: 3%; }
+  footer img {
+    width: 30px;
+    height: 30px; }
+  footer span, footer h6 {
+    font-weight: 600; }
+  footer .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none; }
+  footer .fa-instagram {
+    color: #e40707; }
+  footer .fa-youtube {
+    color: #e40707; }
+
+@media (max-width: 990px) {
+  #services {
+    height: 1000px; }
+    #services .dental_surgery {
+      margin-top: 20%; }
+  .comments .col-sm-12 img {
+    width: 60%;
+    height: 60%;
+    margin-left: 20%; } }
+
+@media (max-width: 570px) {
+  #services {
+    height: 100%;
+    padding-bottom: 5%; }
+    #services h2 {
+      margin-bottom: 4%; }
+    #services img {
+      width: 350px;
+      height: 350px;
+      margin-left: 15%; }
+    #services .col-sm-6 {
+      margin-top: 10%; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    width: 350px;
+    height: 350px;
+    margin-left: 14%; }
+  .contacts {
+    padding-top: 30px; } }
+
+@media (max-width: 502px) {
+  header .header_text h1 {
+    font-size: 3.4rem; }
+  header .header_text h2 {
+    font-size: 1.4rem; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    width: 350px;
+    height: 350px;
+    margin-left: 14%; }
+  #services img {
+    width: 340px;
+    height: 340px; } }
+
+@media (max-width: 472px) {
+  #services img {
+    margin-left: 11%;
+    margin-right: 5%; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    margin-left: 11%;
+    margin-right: 5%; } }
+
+@media (max-width: 442px) {
+  #services img {
+    margin-left: 14%;
+    margin-right: 2%;
+    width: 300px;
+    height: 300px; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    margin-left: 14%;
+    margin-right: 3%;
+    width: 300px;
+    height: 300px; } }
+
+@media (max-width: 414px) {
+  #services img {
+    margin-left: 11%;
+    margin-right: 2%; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    margin-left: 11%;
+    margin-right: 2%; } }
+
+@media (max-width: 375px) {
+  #services img {
+    margin-left: 7%;
+    margin-right: 2%; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    margin-left: 7%;
+    margin-right: 2%; } }
+
+@media (max-width: 320px) {
+  #services img {
+    margin-left: 7%;
+    margin-right: 2%;
+    width: 250px;
+    height: 250px; }
+  .comments .col-sm-12 img, .comments .col-sm-6 img {
+    margin-left: 7%;
+    margin-right: 2%;
+    width: 250px;
+    height: 250px; } }
+
+/*# sourceMappingURL=main.css.map */
